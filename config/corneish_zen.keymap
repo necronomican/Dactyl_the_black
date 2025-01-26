@@ -58,6 +58,7 @@
     &kp CLCK       &kp A     &kp S    &kp D     &kp F     &kp G            &kp RIGHT &kp PAUS             &kp INSERT &kp LEFT                &kp H   &kp J         &kp K     &kp L     &kp SEMI &kp SQT
     &kp LSHFT      &kp Z     &kp X    &kp C     &kp V     &kp B                      &kp SLCK              &kp HOME                           &kp N   &kp M         &kp COMMA &kp DOT   &kp FSLH &kp PG_UP
                    &kp LCTRL  &kp LALT &kp GRAVE &kp GRAVE      &kp ENTER  &kp SPACE &kp DELETE            &kp END &kp BSPC &kp RSHFT                 &kp GRAVE     &kp EQUAL &kp LBKT  &kp RBKT 
+>;
         };
 
         raise_layer {
