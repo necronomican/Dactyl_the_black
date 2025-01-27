@@ -73,7 +73,7 @@
 &trans           &kp LALT        &kp LCTRL       &kp LSHFT       &trans          &kp CLCK             &trans  &trans                        &trans  &trans           &kp PG_DN &kp LEFT    &kp DOWN &kp RIGHT &kp DEL &kp BSPC
 &trans           &kp K_UNDO      &kp K_CUT       &kp K_COPY      &kp K_PASTE     &trans                       &trans                        &trans                   &trans    &trans      &trans   &trans    &trans  &trans  
                     &trans          &trans          &trans          &trans       &trans  &trans  &trans                        &trans  &trans  &trans   &trans    &trans      &trans   &trans       
-            >;           
+                       
 
             >;
         };
