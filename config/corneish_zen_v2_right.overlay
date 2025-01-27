@@ -60,11 +60,11 @@
 
 };
 &default_transform {
-    col-offset = <6>;
+    col-offset = <8>;
 };
 
 &five_column_transform {
-    col-offset = <6>;
+    col-offset = <8>;
 };
 //&kscan0 {
  //   col-gpios
