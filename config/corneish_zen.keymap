@@ -54,9 +54,9 @@
 
             bindings = <
         &trans    &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                                                                                 &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
-    &kp GRAVE &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                                                                                 &kp N6    &kp N7   &kp N8          &kp N9    &kp N0    &kp F12
-   &trans    &kp KP_EQUAL &kp KP_MINUS &kp KP_PLUS &kp LBRC  &kp RBRC                     &trans                         &trans                     &kp LBKT  &kp RBKT &kp SEMI        &kp COLON &kp BSLH  &trans
-    &bt BT_CLR    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                      &kp SLCK              &kp HOME                           &kp N   &kp M         &kp COMMA &kp DOT   &kp FSLH &kp PG_UP
+        &kp GRAVE &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                                                                                 &kp N6    &kp N7   &kp N8          &kp N9    &kp N0    &kp F12
+        &trans    &kp KP_EQUAL &kp KP_MINUS &kp KP_PLUS &kp LBRC &kp RBRC &trans &trans                          &trans &trans             &kp LBKT            &kp RBKT &kp SEMI        &kp COLON &kp BSLH  &trans
+    &bt BT_CLR    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                      &kp SLCK              &kp HOME     &kp N   &kp M         &kp COMMA &kp DOT   &kp FSLH &kp PG_UP
                    &kp LCTRL  &kp LALT &kp GRAVE &mo 1       &kp ENTER  &kp SPACE &kp DELETE            &kp END &kp BSPC &kp RSHFT                 &mo 2     &kp EQUAL &kp LBKT  &kp RBKT       
  
 >;
