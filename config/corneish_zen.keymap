@@ -50,15 +50,15 @@
         lower_layer {
             display-name = "NUMBER";
 
-            
+            // Left: F-keys & BT controls | Right: Numpad centered on home row
+            // Operators flank the number pad on left/right pinky columns
 
             bindings = <
-        &trans    &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                                                                                 &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
-        &kp GRAVE &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                                                                                 &kp N6    &kp N7   &kp N8          &kp N9    &kp N0    &kp F12
-        &trans    &kp KP_EQUAL &kp KP_MINUS &kp KP_PLUS &kp LBRC &kp RBRC &trans &trans                          &trans &trans             &kp LBKT            &kp RBKT &kp SEMI        &kp COLON &kp BSLH  &trans
-    &bt BT_CLR    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                      &kp SLCK              &kp HOME     &kp N   &kp M         &kp COMMA &kp DOT   &kp FSLH &kp PG_UP
-                    &kp LALT &ext_power EP_OFF  &ext_power EP_ON &kp LCTRL       &kp ENTER  &kp SPACE &kp DELETE            &kp END &kp BSPC &kp RSHFT                 &kp EQUAL     &kp EQUAL &kp LBKT  &kp RBKT       
- 
+        &trans        &kp F1           &kp F2            &kp F3           &kp F4           &kp F5                                                                                          &kp EQUAL  &kp PRCNT  &kp CARET  &kp DLLR   &kp HASH   &kp BSPC
+        &kp GRAVE     &kp F6           &kp F7            &kp F8           &kp F9           &kp F10                                                                                         &kp LPAR   &kp N7     &kp N8     &kp N9     &kp RPAR   &kp DEL
+        &trans        &kp F11          &kp F12           &trans           &kp LBRC         &kp RBRC         &trans    &trans                 &trans     &trans                             &kp FSLH   &kp N4     &kp N5     &kp N6     &kp ASTRK  &kp EQUAL
+        &bt BT_CLR    &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4               &trans                 &trans                                        &kp MINUS  &kp N1     &kp N2     &kp N3     &kp PLUS   &kp RET
+                      &kp LALT         &ext_power EP_OFF &ext_power EP_ON &trans                    &kp ENTER &kp SPACE &kp DEL              &trans     &kp BSPC   &kp SPACE                          &kp N0     &kp DOT    &kp COMMA
 >;
         };
 
