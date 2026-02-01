@@ -1,0 +1,6 @@
+name: zmk-keyboards-dactyl-the-black
+
+build:
+  settings:
+    board_root: .
+    dts_root: .
